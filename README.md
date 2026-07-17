@@ -4,31 +4,30 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/v/release/ggml-org/llama.cpp)](https://github.com/ggml-org/llama.cpp/releases)
-[![Server](https://github.com/ggml-org/llama.cpp/actions/workflows/server.yml/badge.svg)](https://github.com/ggml-org/llama.cpp/actions/workflows/server.yml)
-[![Docker](https://github.com/ggml-org/llama.cpp/actions/workflows/docker.yml/badge.svg)](https://github.com/ggml-org/llama.cpp/actions/workflows/docker.yml)
-[![Winget](https://github.com/ggml-org/llama.cpp/actions/workflows/winget.yml/badge.svg)](https://github.com/ggml-org/llama.cpp/actions/workflows/winget.yml)
+[![Server](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/server.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/server.yml)
+[![Docker](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/docker.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/docker.yml)
+[![Winget](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/winget.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/llama.cpp/actions/workflows/winget.yml)
 
-[Manifesto](https://github.com/ggml-org/llama.cpp/discussions/205) / [ggml](https://github.com/ggml-org/ggml) / [ops](https://github.com/ggml-org/llama.cpp/blob/master/docs/ops.md) / [maintainer PRs](https://github.com/ggml-org/llama.cpp/issues?q=is%3Apr%20is%3Aopen%20draft%3AFalse%20(author%3Argerganov%20OR%20author%3AKitaitiMakoto%20OR%20author%3Adanbev%20OR%20author%3Aaldehir%20OR%20author%3Amax-krasnyansky%20OR%20author%3ACISC%20OR%20author%3Aggerganov%20OR%20author%3Aam17an%20OR%20author%3Abartowski1182%20OR%20author%3Ahipudding%20OR%20author%3AServeurpersoCom%20OR%20author%3Apwilkin%20OR%20author%3Areeselevine%20OR%20author%3Angxson%20OR%20author%3Ajeffbolznv%20OR%20author%3A0cc4m%20OR%20author%3Aangt%20OR%20author%3AIMbackK%20OR%20author%3Aarthw%20OR%20author%3AJohannesGaessler%20OR%20author%3AORippler%20OR%20author%3Aruixiang63%20OR%20author%3Axctan%20OR%20author%3Aallozaur%20OR%20author%3Ayomaytk%20OR%20author%3Aaendk%20OR%20author%3Agaugarg-nv%20OR%20author%3Ataronaeo%20OR%20author%3Aforforever73%20OR%20author%3Alhez%20OR%20author%3Anetrunnereve%20OR%20author%3Afairydreaming)%20sort%3Aupdated-desc)
+[Manifesto](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions/205) / [ggml](https://github.com/Unity-Billal-mesloub/ggml) / [ops](https://github.com/Unity-Billal-mesloub/llama.cpp/blob/main/docs/ops.md) / [maintainer PRs](https://github.com/Unity-Billal-mesloub/llama.cpp/issues)
 
 LLM inference in C/C++
 
 ## Recent API changes
 
-- [Changelog for `libllama` API](https://github.com/ggml-org/llama.cpp/issues/9289)
-- [Changelog for `llama-server` REST API](https://github.com/ggml-org/llama.cpp/issues/9291)
+- [Changelog for `libllama` API](https://github.com/Unity-Billal-mesloub/llama.cpp/issues)
+- [Changelog for `llama-server` REST API](https://github.com/Unity-Billal-mesloub/llama.cpp/issues)
 
 ## Hot topics
 
 - **Hugging Face cache migration: models downloaded with `-hf` are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools.**
-- **[guide : using the new WebUI of llama.cpp](https://github.com/ggml-org/llama.cpp/discussions/16938)**
-- [guide : running gpt-oss with llama.cpp](https://github.com/ggml-org/llama.cpp/discussions/15396)
-- [[FEEDBACK] Better packaging for llama.cpp to support downstream consumers 🤗](https://github.com/ggml-org/llama.cpp/discussions/15313)
-- Support for the `gpt-oss` model with native MXFP4 format has been added | [PR](https://github.com/ggml-org/llama.cpp/pull/15091) | [Collaboration with NVIDIA](https://blogs.nvidia.com/blog/rtx-ai-garage-openai-oss) | [Comment](https://github.com/ggml-org/llama.cpp/discussions/15095)
-- Multimodal support arrived in `llama-server`: [#12898](https://github.com/ggml-org/llama.cpp/pull/12898) | [documentation](./docs/multimodal.md)
-- VS Code extension for FIM completions: https://github.com/ggml-org/llama.vscode
-- Vim/Neovim plugin for FIM completions: https://github.com/ggml-org/llama.vim
-- Hugging Face Inference Endpoints now support GGUF out of the box! https://github.com/ggml-org/llama.cpp/discussions/9669
-- Hugging Face GGUF editor: [discussion](https://github.com/ggml-org/llama.cpp/discussions/9268) | [tool](https://huggingface.co/spaces/CISCai/gguf-editor)
+- **[guide : using the new WebUI of llama.cpp](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions)**
+- [guide : running gpt-oss with llama.cpp](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions)
+- [[FEEDBACK] Better packaging for llama.cpp to support downstream consumers 🤗](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions)
+- Support for the `gpt-oss` model with native MXFP4 format has been added | [PR](https://github.com/Unity-Billal-mesloub/llama.cpp/pull) | [Collaboration with NVIDIA](https://blogs.nvidia.com/blog/rtx-ai-garage-openai-oss) | [Comment](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions)
+- Multimodal support arrived in `llama-server`: [#12898](https://github.com/Unity-Billal-mesloub/llama.cpp/pull) | [documentation](./docs/multimodal.md)
+- Vim/Neovim plugin for FIM completions: https://github.com/Unity-Billal-mesloub/llama.vim
+- Hugging Face Inference Endpoints now support GGUF out of the box! https://github.com/Unity-Billal-mesloub/llama.cpp/discussions
+- Hugging Face GGUF editor: [discussion](https://github.com/Unity-Billal-mesloub/llama.cpp/discussions) | [tool](https://huggingface.co/spaces/CISCai/gguf-editor)
 - WebGPU support is now available in the browser, see a blog/demo introducing it [here](https://reeselevine.github.io/llamas-on-the-web/).
 
 ----
@@ -90,29 +89,28 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 - [x] [DBRX](https://huggingface.co/databricks/dbrx-instruct)
 - [x] [Jamba](https://huggingface.co/ai21labs)
 - [X] [Falcon](https://huggingface.co/models?search=tiiuae/falcon)
-- [X] [Chinese LLaMA / Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) and [Chinese LLaMA-2 / Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
-- [X] [Vigogne (French)](https://github.com/bofenghuang/vigogne)
-- [X] [BERT](https://github.com/ggml-org/llama.cpp/pull/5423)
+- [X] [Vigogne (French)](https://github.com/Unity-Educational-Formation/vigogne)
+- [X] [BERT](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [X] [Koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)
 - [X] [Baichuan 1 & 2](https://huggingface.co/models?search=baichuan-inc/Baichuan) + [derivations](https://huggingface.co/hiyouga/baichuan-7b-sft)
 - [X] [Aquila 1 & 2](https://huggingface.co/models?search=BAAI/Aquila)
-- [X] [Starcoder models](https://github.com/ggml-org/llama.cpp/pull/3187)
+- [X] [Starcoder models](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [X] [Refact](https://huggingface.co/smallcloudai/Refact-1_6B-fim)
-- [X] [MPT](https://github.com/ggml-org/llama.cpp/pull/3417)
-- [X] [Bloom](https://github.com/ggml-org/llama.cpp/pull/3553)
+- [X] [MPT](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
+- [X] [Bloom](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [x] [Yi models](https://huggingface.co/models?search=01-ai/Yi)
 - [X] [StableLM models](https://huggingface.co/stabilityai)
 - [x] [Deepseek models](https://huggingface.co/models?search=deepseek-ai/deepseek)
 - [x] [Qwen models](https://huggingface.co/models?search=Qwen/Qwen)
-- [x] [PLaMo-13B](https://github.com/ggml-org/llama.cpp/pull/3557)
+- [x] [PLaMo-13B](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [x] [Phi models](https://huggingface.co/models?search=microsoft/phi)
-- [x] [PhiMoE](https://github.com/ggml-org/llama.cpp/pull/11003)
+- [x] [PhiMoE](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [x] [GPT-2](https://huggingface.co/gpt2)
-- [x] [Orion 14B](https://github.com/ggml-org/llama.cpp/pull/5118)
+- [x] [Orion 14B](https://github.com/Unity-Billal-mesloub/llama.cpp/pull)
 - [x] [InternLM2](https://huggingface.co/models?search=internlm2)
-- [x] [CodeShell](https://github.com/WisdomShell/codeshell)
+- [x] [CodeShell](https://github.com/Unity-Educational-Formation/codeshell)
 - [x] [Gemma](https://ai.google.dev/gemma)
-- [x] [Mamba](https://github.com/state-spaces/mamba)
+- [x] [Mamba](https://github.com/Unity-Educational-Formation/mamba)
 - [x] [Grok-1](https://huggingface.co/keyfan/grok-1-hf)
 - [x] [Xverse](https://huggingface.co/models?search=xverse)
 - [x] [Command-R models](https://huggingface.co/models?search=CohereForAI/c4ai-command-r)
@@ -122,7 +120,7 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 - [x] [OLMo 2](https://allenai.org/olmo)
 - [x] [OLMoE](https://huggingface.co/allenai/OLMoE-1B-7B-0924)
 - [x] [Granite models](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330)
-- [x] [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) + [Pythia](https://github.com/EleutherAI/pythia)
+- [x] [GPT-NeoX](https://github.com/Unity-Educational-Formation/gpt-neox) + [Pythia](https://github.com/Unity-Educational-Formation/pythia)
 - [x] [Snowflake-Arctic MoE](https://huggingface.co/collections/Snowflake/arctic-66290090abe542894a5ac520)
 - [x] [Smaug](https://huggingface.co/models?search=Smaug)
 - [x] [Poro 34B](https://huggingface.co/LumiOpen/Poro-34B)
@@ -137,7 +135,7 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 - [x] [Jais](https://huggingface.co/inceptionai/jais-13b-chat)
 - [x] [Bielik-11B-v2.3](https://huggingface.co/collections/speakleash/bielik-11b-v23-66ee813238d9b526a072408a)
 - [x] [RWKV-7](https://huggingface.co/collections/shoumenchougou/rwkv7-gxx-gguf)
-- [x] [RWKV-6](https://github.com/BlinkDL/RWKV-LM)
+- [x] [RWKV-6](https://github.com/Unity-Educational-Formation/RWKV-LM)
 - [x] [QRWKV-6](https://huggingface.co/recursal/QRWKV6-32B-Instruct-Preview-v0.1)
 - [x] [GigaChat-20B-A3B](https://huggingface.co/ai-sage/GigaChat-20B-A3B-instruct)
 - [X] [Trillion-7B-preview](https://huggingface.co/trillionlabs/Trillion-7B-preview)
@@ -159,7 +157,7 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 - [x] [Yi-VL](https://huggingface.co/models?search=Yi-VL)
 - [x] [Mini CPM](https://huggingface.co/models?search=MiniCPM)
 - [x] [Moondream](https://huggingface.co/vikhyatk/moondream2)
-- [x] [Bunny](https://github.com/BAAI-DCAI/Bunny)
+- [x] [Bunny](https://github.com/Unity-Educational-Formation/Bunny)
 - [x] [GLM-EDGE](https://huggingface.co/models?search=glm-edge)
 - [x] [Qwen2-VL](https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d)
 - [x] [LFM2-VL](https://huggingface.co/collections/LiquidAI/lfm2-vl-68963bbc84a610f7638d5ffa)
@@ -169,13 +167,12 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 <details>
 <summary>Bindings</summary>
 
-- Python: [ddh0/easy-llama](https://github.com/ddh0/easy-llama)
-- Python: [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
-- Go: [go-skynet/go-llama.cpp](https://github.com/go-skynet/go-llama.cpp)
-- Node.js: [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp)
-- JS/TS (llama.cpp server client): [lgrammel/modelfusion](https://modelfusion.dev/integration/model-provider/llamacpp)
-- JS/TS (Programmable Prompt Engine CLI): [offline-ai/cli](https://github.com/offline-ai/cli)
-- JavaScript/Wasm (works in browser): [tangledgroup/llama-cpp-wasm](https://github.com/tangledgroup/llama-cpp-wasm)
+- Python: [Unity-Educational-Formation/easy-llama](https://github.com/Unity-Educational-Formation/easy-llama)
+- Python: [Unity-Educational-Formation/llama-cpp-python](https://github.com/Unity-Educational-Formation/llama-cpp-python)
+- Go: [Unity-Educational-Formation/go-llama.cpp](https://github.com/Unity-Educational-Formation/go-llama.cpp)
+- Node.js: [Unity-Educational-Formation/node-llama-cpp](https://github.com/Unity-Educational-Formation/node-llama-cpp)
+- JS/TS (llama.cpp server client): [Unity-Educational-Formation/modelfusion](https://modelfusion.dev/integration/model-provider/llamacpp)
+- JS/TS (Programmable Prompt Engine CLI): [Unity-Educational-Formation-ai/cli](https://github.com/Unity-Educational-Formation/cli)
 - Typescript/Wasm (nicer API, available on npm): [ngxson/wllama](https://github.com/ngxson/wllama)
 - Ruby: [yoshoku/llama_cpp.rb](https://github.com/yoshoku/llama_cpp.rb)
 - Ruby: [docusealco/rllama](https://github.com/docusealco/rllama)
